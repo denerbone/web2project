@@ -1,16 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Document</title>
+
     <link rel="stylesheet" href="./.dist/output.css">
 </head>
-<body>
+<body >
 <div class="w-full bg-[#FF510C] h-13 lg:h-[70px] flex items-center justify-center  " ><p class="text-white font-bold text-[13px] flex-nowrap flex lg:text-[17px]">تا ۷۰٪ تخفیف برای لوازم جانبی اورجینال آیفون</p></div>
-<div class="h-[147px] w-full lg:h-[127px] lg:mt-[17px]">
-    <div class="line-1"></div>
-    <div class="line-2 md:hidden"></div>
+<div class="h-[147px] w-full lg:h-[127px] lg:mt-[17px] ">
+    <div class="line-1 flex items-center h-1/2 container mx-auto px-4 justify-between lg:px-20"> 
+        <div class="hamburger w-[15px] h-3 md:hidden"><img src="./src/img/svg/hamburger-menu-svgrepo-com.svg" alt=""></div>
+        <a href="#" class="websitelogo flex size-8 md:size-13 items-center">
+            <img src="./src/img/svg/App Store.svg" alt="appstore" class="size-8 md:size-13">
+            <div class="heading flex flex-col md:flex-row gap-1 md:gap-0 md:mr-[17px] mr-1">
+                    <span class="text-primary font-semibold text-[16px]/[15px] flex-col md:flex-row line md:text-[30px] lg:font-">اپل</span>
+                    <span class="text-primary font-semibold text-[16px]/[15px] flex-col md:flex-row line md:text-[30px]">استور</span>
+            </div>
+        </a>
+        <div class="hidden md:block"></div>
+        <div class="buttons flex gap-[10px] h-[23px] w-14 pt-1">
+            <a href="#" class="cart relative"><img src="./src/img/svg/shopping-cart.svg" alt="cart"> <span class="absolute flex rounded-full bg-primary size-3 text-[8px] text-white items-center justify-center top-0 right-0 translate-x-1/2 -translate-y-1/2">0</span></a>
+            <a href="#" class="heart relative"><img src="./src/img/svg/heart.svg" alt="heart">  <span class="absolute flex rounded-full bg-primary size-3 text-[8px] text-white items-center justify-center top-0 right-0 translate-x-1/2 -translate-y-1/2">0</span></a>
+        </div>
+
+</div>
+    <div class="line-2 h-1/2 md:hidden"> </div>
 </div>
 </div>
 </body>
